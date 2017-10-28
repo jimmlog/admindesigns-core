@@ -1,0 +1,24 @@
+{
+  "name": "admindesigns-core",
+  "version": "1.5.3",
+  "description": "AdminDesigns Core theme",
+  "homepage": "https://github.com/jimmlog/admindesigns-core",
+  "keywords": [
+    "AdminDesigns",
+    "theme",
+    "1.5",
+    "assets"
+  ],
+  "authors": [
+    "Jimm Logan <jimmloga@gmail.com>"
+  ],
+  "main": "admin-tools/admin-forms/css/admin-forms.min.css",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
