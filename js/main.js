@@ -431,22 +431,6 @@ var Core = function(options) {
 
       });
 
-      // Init jQuery Multi-Select for navbar user dropdowns
-      if ($("#user-status").length) {
-          $('#user-status').multiselect({
-            buttonClass: 'btn btn-default btn-sm',
-            buttonWidth: 100,
-            dropRight: false
-         });
-      }
-      if ($("#user-role").length) {
-          $('#user-role').multiselect({
-            buttonClass: 'btn btn-default btn-sm',
-            buttonWidth: 100,
-            dropRight: true
-         });
-      }
-
       // Dropdown Multiselect Persist. Prevents a menu dropdown
       // from closing when a child multiselect is clicked
       $('.dropdown-menu').on('click', function(e) {
